@@ -6,7 +6,7 @@ let isLightOn = false;
 
 lightswitch.addEventListener('click', function() {
     if(isLightOn) {
-        lightbulb.src = "LightOff.png";
+        lightbulb.src = "lightOff.png";
         lightswitch.src = "switchOff.png";
         status.textContent = "TURN ON THE LIGHT.";
     }else{
